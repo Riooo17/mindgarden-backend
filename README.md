@@ -21,6 +21,7 @@
   - Automatically updates Supabase `profiles.is_premium=true`.
 
 ## Notes
-- Amount is in **kobo** (KES*100).
+- Amount is in KES.
 - The frontend should call `/create-payment`, then redirect user.
 - On webhook success, the backend updates Supabase.
+
